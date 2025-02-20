@@ -37,6 +37,12 @@ body {
     border-radius: 10px;
 }
 
+/* .image > img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+} */
+
 .inside {
     font-size: 1.2rem;
     text-align: left;

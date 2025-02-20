@@ -22,8 +22,9 @@ const Information = () => {
   }, [location]);
 
   return (
-      <div>
+    <>
           <Navbar />
+      <div className='pt-20'>
           <div id='1'><About_sdeml /></div>
           <div id='2'><About_Uttrakhand /></div>
           <div id='3'><About_Roorkee /></div>
@@ -31,6 +32,7 @@ const Information = () => {
           <div id='5'><About_NIT /></div>
           <div id='6'><About_Avadh /></div>
       </div>
+      </>
   );
 };
 

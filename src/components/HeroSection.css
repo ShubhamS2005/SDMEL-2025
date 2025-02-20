@@ -1,0 +1,68 @@
+.hero-container {
+  position: relative;
+  background-color: beige;
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero-description {
+  margin-top: 16px;
+  font-size: 18px;
+  color: #424141;
+}
+
+.hero-buttons {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.pre-register-btn,
+.schedule-btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pre-register-btn {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.schedule-btn {
+  background-color: white;
+  color: black;
+}
+
+.hero-background {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}

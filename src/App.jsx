@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './components/Home'
 import Information from './components/Information/Information'
-import Login from './components/Login'
-import Signup from './components/Signup'
 import INAB from './components/Information/INAB'
+import Theme from './components/Theme'
+import Committee from './components/Committee'
 
 const appRouter = createBrowserRouter([
   {
@@ -19,13 +19,14 @@ const appRouter = createBrowserRouter([
     element:<INAB/>
   },
   {
-    path:"/login",
-    element:<Login/>
+    path: "/theme",
+    element:<Theme/>
   },
   {
-    path:"/register",
-    element:<Signup/>
+    path: "/committee",
+    element:<Committee/>
   },
+
 ])
 
 function App() {
