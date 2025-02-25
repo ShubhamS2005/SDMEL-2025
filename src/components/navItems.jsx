@@ -39,12 +39,12 @@ export const conferenceItems = [
     {
         id: 2,
         title: "Academic Committee",
-        path: "/committee"
+        path: "/academic-committee"
     },
     {
         id: 3,
         title: "Student Committee",
-        path: "/committee"
+        path: "/student-committee"
     },
 ]
 
@@ -108,7 +108,7 @@ export const speakerItems = [
 export const themeItems = [
     {
         id: 1,
-        title: "Computer Science"
+        title: "Computer Science Engineering"
     },
     {
         id: 2,
@@ -121,5 +121,21 @@ export const themeItems = [
     {
         id: 4,
         title: "Pharmacy"
+    },
+    {
+        id: 5,
+        title: "Agriculture"
+    },
+    {
+        id: 6,
+        title: "Mechanical Engineering"
+    },
+    {
+        id: 7,
+        title: "Civil Engineering"
+    },
+    {
+        id: 8,
+        title: "Electrical Engineering"
     },
 ]

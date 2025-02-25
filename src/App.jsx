@@ -3,7 +3,8 @@ import Home from './components/Home'
 import Information from './components/Information/Information'
 import INAB from './components/Information/INAB'
 import Theme from './components/Theme'
-import Committee from './components/Committee'
+import AcademicCommittee from './components/AcademicCommittee'
+import StudentCommittee from './components/StudentCommittee'
 
 const appRouter = createBrowserRouter([
   {
@@ -23,8 +24,12 @@ const appRouter = createBrowserRouter([
     element:<Theme/>
   },
   {
-    path: "/committee",
-    element:<Committee/>
+    path: "/academic-committee",
+    element:<AcademicCommittee/>
+  },
+  {
+    path: "/student-committee",
+    element:<StudentCommittee/>
   },
 
 ])

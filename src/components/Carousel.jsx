@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 
 const Carousel = () => {
   const images = [
-    "https://content.jdmagicbox.com/comp/roorkee/l7/9999p1332.1332.110509142944.a2l7/catalogue/roorkee-college-of-engineering-roorkee-colleges-1omg9ydtp9.jpg",
-    "https://huroorkee.ac.in/assets/img/about_us/infra/infra2.jpg",
-    "https://huroorkee.ac.in/assets/img/gallery/images/Campus_View/haridwar_university_photos3.jpg",
-    "https://huroorkee.ac.in/assets/img/academics/overview2.jpg",
+    "https://huroorkee.ac.in/assets/img/slider/home_page_slider1.jpg",
+    "https://huroorkee.ac.in/assets/img/slider/home_page_slider2.webp",
+    "https://huroorkee.ac.in/assets/img/slider/home_page_slider3.webp",
+    "https://huroorkee.ac.in/assets/img/student_corner/accommodation/banner.jpg",
+
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

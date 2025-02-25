@@ -7,6 +7,7 @@ import About_Hu from './About_Hu'
 import About_sdeml from './About_sdmel'
 import About_Uttrakhand from './About_Uttrakhand'
 import { useLocation } from 'react-router-dom'
+import Footer from '../footer/footer'
 
 
 const Information = () => {
@@ -32,6 +33,7 @@ const Information = () => {
           <div id='5'><About_NIT /></div>
           <div id='6'><About_Avadh /></div>
       </div>
+      <Footer/>
       </>
   );
 };
