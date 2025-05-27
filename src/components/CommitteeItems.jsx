@@ -14,6 +14,13 @@ export const studentItems = [
         "Batch": "2023-2027"
     },
     {
+        "id": 6,
+        "name": "Krish Kumar",
+        "Branch": "BCA",
+        "photo": "/krish.png",
+        "Batch": "2023-2026"
+    },
+    {
         "id": 3,
         "name": "Kush Bansal",
         "Branch": "B.TECH CSE AIML",
@@ -32,15 +39,9 @@ export const studentItems = [
         "name": "Sunny",
         "Branch": "B.TECH CSE",
         "photo": "/sunny.png",
-        "Batch": "2022-2027"
+        "Batch": "2022-2026"
     },
-    {
-        "id": 6,
-        "name": "Krish Kumar",
-        "Branch": "BCA",
-        "photo": "/krish.png",
-        "Batch": "2023-2026"
-    },
+    
     {
         "id": 7,
         "name": "Indira Bhattacharjee",
@@ -78,7 +79,7 @@ export const studentItems = [
     },
     {
         "id": 12,
-        "name": "Unknown",
+        "name": "Ridhima Giri",
         "Branch": "B PHARMACY",
         "photo": "/unknown.png",
         "Batch": "2024-2028"
