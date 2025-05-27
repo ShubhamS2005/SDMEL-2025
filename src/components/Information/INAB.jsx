@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Inab.css";
 import Navbar from "../Navbar";
 import { useLocation } from "react-router-dom";
-import Footer from "../footer/footer";
+import Footer from "../footer/Footer";
 
 function INAB() {
   const location = useLocation();
