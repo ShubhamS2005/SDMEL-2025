@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Carousel from './Carousel'
 import HeroSection from './Herosection'
-import Footer from './footer/footer'
+import Footer from './footer/Footer'
 
 const Home = () => {
   return (

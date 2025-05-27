@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import { studentItems } from "./CommitteeItems";
-import Footer from "./footer/footer";
+import Footer from "./footer/Footer";
 
 const StudentCommittee = () => {
   return (

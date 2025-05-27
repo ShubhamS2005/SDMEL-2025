@@ -7,7 +7,7 @@ import About_Hu from './About_Hu'
 import About_sdeml from './About_sdmel'
 import About_Uttrakhand from './About_Uttrakhand'
 import { useLocation } from 'react-router-dom'
-import Footer from '../footer/footer'
+import Footer from '../footer/Footer'
 
 
 const Information = () => {
